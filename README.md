@@ -2,7 +2,7 @@
 
 Official repository of PanoAVQA: Grounded Audio-Visual Question Answering in 360° Videos (ICCV 2021)
 
-![Data_fig](https://raw.githubusercontent.com/HS-YN/PanoAVQA/main/assets/data.png)
+![Data_fig](https://hs-yn.github.io/assets/img/panoavqa_data.png)
 
 ### [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Yun_Pano-AVQA_Grounded_Audio-Visual_Question_Answering_on_360deg_Videos_ICCV_2021_paper.html) [[Poster]](https://hs-yn.github.io/assets/pdf/2021iccv_panoavqa_poster.pdf) [Video]
 
@@ -15,7 +15,7 @@ This code is based on following libraries:
 * `pytorch=1.7.0` (with cuda 10.2)
 
 To create virtual environment with all necessary libraries:
- 
+
 ```bash
 conda env create -f environment.yml
 ```
@@ -64,7 +64,7 @@ python cli.py eval with ckpt_file=../data/log/{experiment}/{ckpt}.pth
 If you find our work useful in your research, please consider citing:
 
 ```tex
-@InProceedings{Yun2021PanoAVQA, 
+@InProceedings{Yun2021PanoAVQA,
     author = {Yun, Heeseung and Yu, Youngjae and Yang, Wonsuk and Lee, Kangil and Kim, Gunhee},
     title = {Pano-AVQA: Grounded Audio-Visual Question Answering on 360$^\circ$ Videos},
     booktitle = {ICCV},
